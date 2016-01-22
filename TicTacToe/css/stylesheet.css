@@ -1,0 +1,339 @@
+@font-face {
+    font-family: "FFF";
+    src: url('../font/FFF.ttf');
+}
+
+h1.titre:before {
+   background:blue;
+   width:30px;
+   content:"";
+   display:inline-block;
+   height:10px;
+   margin-right:10px;
+}
+h1.titre:after {
+   background:blue;
+   width:300px;
+   content:"";
+   display:inline-block;
+   height:10px;
+   margin-left:10px;
+}
+.titre{
+	font-family: "FFF";
+	font-size:50px;
+	text-align:center;
+
+
+}
+
+#ancien{
+	position:absolute;
+	bottom:40px;
+	margin-left:40px;
+}
+
+
+
+@keyframes stretch3 {
+  0% {
+	left:0px;
+   }
+  100% {
+    left:40px;
+  }
+}
+		
+#rond{
+	
+	margin: 0 auto;
+  animation-name: stretch3;
+  animation-duration: 3s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+
+
+
+body{
+	background-image:url(../img/landscape.png);
+}
+#info{
+	font-size:30px;
+}
+
+#case11{
+	border:2px solid blue;
+	height: 80px;
+	width: 80px;
+	display:inline-block;
+	border-radius:5px;
+	box-shadow:4px 10px 10px black;
+	
+
+}
+#case21{
+	border:2px solid blue;
+	height: 80px;
+	width: 80px;
+	display:inline-block;
+	border-radius:5px;
+	box-shadow:4px 10px 10px black;
+}
+#case31{
+	border:2px solid blue;
+	height: 80px;
+	width: 80px;
+	display:inline-block;
+	border-radius:5px;
+	box-shadow:4px 10px 10px black;
+}
+#case12{
+	border:2px solid blue;
+	height: 80px;
+	width: 80px;
+	display:inline-block;
+	border-radius:5px;
+	box-shadow:4px 10px 10px black;
+}
+#case22{
+	border:2px solid blue;
+	height: 80px;
+	width: 80px;
+	display:inline-block;
+	border-radius:5px;
+	box-shadow:4px 10px 10px black;
+}
+#case32{
+	border:2px solid blue;
+	height: 80px;
+	width: 80px;
+	display:inline-block;
+	border-radius:5px;
+	box-shadow:4px 10px 10px black;
+}
+#case13{
+	border:2px solid blue;
+	height: 80px;
+	width: 80px;
+	display:inline-block;
+	border-radius:5px;
+	box-shadow:4px 10px 10px black;
+}
+#case23{
+	border:2px solid blue;
+	height: 80px;
+	width: 80px;
+	display:inline-block;
+	border-radius:5px;
+	box-shadow:4px 10px 10px black;
+}
+#case33{
+	border:2px solid blue;
+	height: 80px;
+	width: 80px;
+	display:inline-block;
+	border-radius:5px;
+	box-shadow:4px 10px 10px black;
+}
+#plateau{
+	text-align:center;
+	margin-top:20px;
+	position: absolute;
+	left:33%;
+}
+   
+.player1{
+	background-color:red;
+	
+	margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+
+    background-color: red;
+    border-radius: 50%;
+  }
+  50% {
+	background-color: red;
+  }
+  100% {
+    background-color: red;
+  }
+}
+	
+@keyframes stretch2 {
+  0% {
+
+    background-color: green;
+    border-radius: 50%;
+  }
+  50% {
+    background-color: green;
+  }
+  100% {
+    background-color: green;
+  }
+}
+		
+	
+.player2{
+	background-color:green;
+	margin: 0 auto;
+  background-color: red;
+  animation-name: stretch2;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+#bas{
+
+	margin-top:320px;
+	left:39%;
+	font-size:20px;
+	position: absolute;
+	
+}
+#gauche {  
+  top: 130px;  
+  bottom: 40%;  
+  width: 30%;
+  height:50px;  
+  position: absolute;
+  margin-left: -10px;
+  text-align:center;
+  font-size:40px;
+  left:10px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+#droite {  
+  top: 130px;  
+  bottom: 40%;  
+  right: 50px;  
+  width: 30%;
+  height:50px; 
+  position: absolute;
+  text-align:center;
+  font-size:40px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+#score1 {  
+  top: 220px;  
+  bottom: 40%;  
+  width: 300px;  
+  position: absolute;
+  margin-left: -10px;
+  text-align:center;
+  font-size:60px;
+}
+#score2 {  
+  top: 220px;  
+  bottom: 40%;  
+  right: 10px;  
+  width: 300px;  
+  position: absolute;
+  right: 50px;
+  text-align:center;
+  font-size:60px;
+}
+#rond{
+	height:100px;
+	width:100px;
+	position:absolute;
+	top:10%;
+	left:10%;
+}
+/*MENU DEROULANT*/
+
+#menu-deroulant, #menu-deroulant ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+#menu-deroulant li{
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+}
+#menu-deroulant ul li{
+display:inherit;
+border-radius:0;
+}
+#menu-deroulant ul li:hover{
+border-radius:0;
+}
+#menu-deroulant ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+#menu-deroulant ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#menu-deroulant li:hover ul{
+max-height:15em;
+}
+/* background des liens menus */
+
+#menu-deroulant li{
+background-color: #CFFF6A;
+background-image:-webkit-linear-gradient(top, #CFFF6A 0%, #677F35 100%);
+background-image:linear-gradient(to bottom, #CFFF6A 0%, #677F35 100%);
+}
+/* background des liens sous menus */
+
+#menu-deroulant li:last-child li{
+background:#677F35;
+}
+/* background des liens menus et sous menus au survol */
+
+#menu-deroulant li:last-child:hover, #menu-deroulant li:last-child li:hover{
+background:#CFFF6A;
+}
+/* les a href */
+#menu-deroulant a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:#fff;
+font-family:arial;
+}
+#menu-deroulant ul a{
+padding:8px 0;
+}
+#menu-deroulant li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menu-deroulant li:hover a, #menu-deroulant li li:hover a{
+color:#000;
+}

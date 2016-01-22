@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tic Tac Toe</title>
+        <link href="css/stylesheet.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> <!--lien vers le CDN de Bootstrap-->
+
+   </head>
+    <body>
+	<img src="img/sun.png"  id="rond"/>
+	<ul id="menu-deroulant">
+	<li><a href="#"> MENU</a>
+		<ul>
+			<li><a href="#" id="reset2">Recommencer</a></li>
+			<li><a href="#" id="raz2">Remise à zéro</a></li>
+			<li><a href="#" id="changement">Changer les prénoms</a></li>
+			<li><a href="#" id="regles">Règles du jeu</a></li>
+		</ul>
+	</li>
+	</ul>
+	
+	<div id="gauche"></div>
+	<div id="score1"></div>
+	<div id="droite"></div>
+	<div id="score2"></div>
+        <h1 class="titre">Tic Tac Toe</h1>
+		
+		<div id="jeu">
+			<div id="plateau">
+				<div id="ligne1">
+					<div id="case11" class="none"></div>
+					<div id="case21" class="none"></div>
+					<div id="case31" class="none"></div>
+				</div>
+				<div id="ligne2">
+					<div id="case12" class="none"></div>
+					<div id="case22" class="none"></div>
+					<div id="case32" class="none"></div>
+				</div>
+				<div id="ligne3">
+					<div id="case13" class="none"></div>
+					<div id="case23" class="none"></div>
+					<div id="case33" class="none"></div>
+				</div>
+				<div id="info"></div>
+			</div>
+		</div>
+		<div id="bas">
+			<p><button id="reset"class="btn btn-primary">Recommencer</button></p>
+			<p><button id="raz"class="btn btn-primary">Remise à zéro</button></p>
+		</div>
+		
+		<script src="jquery/jquery.min.js"></script>
+    	<script src="js/semaine12.js"></script>
+    </body>
+</html>
