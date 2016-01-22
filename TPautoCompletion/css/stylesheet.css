@@ -1,0 +1,46 @@
+body {
+    padding-top: 50px;
+
+}
+
+footer {
+    padding: 20px;
+
+}
+
+main{
+	padding:20px;
+
+}
+header{
+
+}
+#logo{
+	text-align:center;
+	margin-top:80px;
+
+}
+#search{
+	margin-top:40px;
+	margin-left:35%;
+	width:300px;
+	border:1px solid blue;
+
+}
+#results{
+		
+		margin-left:35%;
+		width:300px;
+		border:1px solid grey;
+}
+.boutton{
+	
+	margin-left: 35%;
+	margin-top:20px;
+	height:30px;
+	width:300px;
+}
+#chance{
+	float:right;
+
+}
